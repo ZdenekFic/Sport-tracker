@@ -1,0 +1,37 @@
+/* src/assets/global.css */
+
+/* Nastavení celkového pozadí pro aplikaci */
+body {
+    background-color: #343a40; /* Tmavé pozadí */
+    color: #f8f9fa; /* Světlý text */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Odkazy */
+  a {
+    color: #3498db; /* Modrá barva pro odkazy */
+  }
+  
+  a:hover {
+    color: #2980b9; /* Tmavší modrá při hover */
+  }
+  
+  /* Základní styl pro všechny nadpisy */
+  h1, h2, h3, h4, h5, h6 {
+    color: #f8f9fa;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Karty */
+  .card {
+    background-color: #2c3e50; /* Tmavší karta */
+    color: #ecf0f1; /* Světlý text na kartě */
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+
